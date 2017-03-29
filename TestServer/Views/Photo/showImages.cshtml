@@ -1,0 +1,22 @@
+﻿@model MemoryStream
+
+@{
+    ViewBag.Title = "ShowImages";
+}
+
+<h2>ShowImages</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    
+    <tr>
+	    <td>
+			<img src='@Url.Action("image")' alt="modelItem" />
+		    
+	    </td>
+    </tr>
+
+
+</table>
