@@ -12,6 +12,9 @@ namespace TestServer.Models
     {
         [Key]
         public int Id { get; set; }
+
+        public int CommonPhotoNumber { get; set; }
+
         [StringLength(50)]
         public string FirstName { get; set; }
         [StringLength(50)]
